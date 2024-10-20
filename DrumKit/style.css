@@ -2,5 +2,38 @@ body{
 background-image: url("images/Background.jpg");
 background-size: cover; /* Makes the background image cover the entire area */
 background-position: center; /* Centers the image */
-background-repeat: no-repeat; /* Prevents the image from repeating */
+/*background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.instruments{
+    display: flex;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.play
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(13, 13, 12);
+    border: 2px solid rgb(140, 154, 36);
+    border-radius: 5px;
+}
+.play:hover{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(13, 13, 12);
+    border: 2px solid rgb(140, 154, 36);
+    border-radius: 5px;
 }
