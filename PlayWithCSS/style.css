@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgContainer{
+    background-color: yellow;
+    padding: 20px;
+}
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
+    filter: blur(8px);
+}
+
+
+#background{
+    background-color: black;
+    color: white;
+}
